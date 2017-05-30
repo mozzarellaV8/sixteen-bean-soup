@@ -2,7 +2,7 @@
 
 ## USDA National Agricultural Statistics Service
 
-[16-bean-csv](16-bean-csv)
+###[USDA-NASS CSVs](16-bean-csv)
 
 Here we are with CSV files downloaded from the [USDA National Agricultural Statistics Service](https://www.nass.usda.gov/index.php). 
 
@@ -24,7 +24,7 @@ Two types of beans ceased to be measured in the mid 1960s - Marrow White Beans a
 
 ## USDA Economic Research Service
 
-[16-bean-tables](16-bean-tables)
+### [Economic Research Service tables](16-bean-tables)
 
 This data comes in the form of outdated Lotus _.wk1_ files...
 
