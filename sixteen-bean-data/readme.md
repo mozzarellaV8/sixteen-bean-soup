@@ -1,14 +1,17 @@
-# 16 Bean Soup - Edible Dry Bean Data
+# Edible Dry Bean Data
 
 ## USDA National Agricultural Statistics Service
 
 ### [USDA-NASS CSVs](16-bean-csv)
 
-Here we are with CSV files downloaded from the [USDA National Agricultural Statistics Service](https://www.nass.usda.gov/index.php). 
+Here we are with CSV files downloaded from the [USDA National Agricultural Statistics Service](https://www.nass.usda.gov/index.php). This path leads to Edible Dry Beans data by bean class and attributes:
 
--- **Data & Statistics** -- Crops and Plants -- Statistics by Subject -- Sector: Crops -- Group: Field Crops -- Commodity: Beans
-
-This path leads to Edible Dry Beans by bean class and attributes.
+- **Data & Statistics** 
+  - Crops and Plants
+    - Statistics by Subject
+      - Sector: Crops
+      - Group: Field Crops
+        - Commodity: Beans
 
 There are varying attributes per bean class, but four bedrock measurements that appear across classes are
 
