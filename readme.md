@@ -2,9 +2,9 @@
 
 ![](vis/phaseolus_vulgaris_seed.jpg)
 
-Common Beans (_phaseolus_vulgaris_)
+Common Beans (_phaseolus vulgaris_)
 
-Inspired by [this project](https://github.com/zonination/skittles) and a general fondness for[minestrone soup](http://allrecipes.com/recipe/13333/jamies-minestrone/).
+Inspired by [this project](https://github.com/zonination/skittles) and a general fondness for [minestrone soup](http://allrecipes.com/recipe/13333/jamies-minestrone/).
 
 ## to do
 
