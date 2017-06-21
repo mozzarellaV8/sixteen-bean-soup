@@ -7,12 +7,17 @@
 
 library(dplyr)
 library(tidyr)
+library(ggplot2)
+
+# vis themes and palettes
+source("tools/pd-themes.R")
+source("tools/pd-palettes.R")
 
 edible.dry <- read.csv("data/16-bean-csv/beans-dry-edible-all.csv")
 str(edible.dry)
 
 # columns 19:30 should be renamed - shorter
-colnames(edible.dry)[19:30] <- c("acres.harveseted",
+colnames(edible.dry)[19:30] <- c("acres.harvested",
                                  "acres.harvested.cv",
                                  "acres.planted",
                                  "acres.planted.cv",
@@ -81,7 +86,7 @@ edible.results <- edible.results[-1, ]
 
 # 1. harvest:planted ratio
 results <- edible.results %>%
-  mutate(harvest.ratio = acres.harveseted / acres.planted,
+  mutate(harvest.ratio = acres.harvested / acres.planted,
          production.value = production.in.dollars / production.cwt)
 
 # 'harvest ratio' can be examined annually.
@@ -98,5 +103,21 @@ summary(results$yield.lb.per.acre)
 # need to plot this, but generally appears that yield in lbs per acre 
 # has gone up since the turn of the century.
 
+# visualize change over time --------------------------------------------------
+
+# when did we plant and harvest more beans? 
+ggplot(results) +
+  geom_line(aes(Year, acres.harvested), color = "coral2") +
+  geom_line(aes(Year, acres.planted), color = "cadetblue4") +
+  geom_point(aes(Year, acres.planted), color = "cadetblue4") +
+  scale_x_continuous(breaks = seq(1910, 2010, 5)) +
+  scale_y_continuous(breaks = seq(500000, 3000000, 250000)) +
+  pd.scatter +
+  theme(axis.text.x = element_text(angle = 45,
+                                   hjust = 1, 
+                                   vjust = 1),
+        axis.ticks.x = element_line(color = "gray18",
+                                    size = 0.5)) +
+  labs(x = "", y = "")
 
 
