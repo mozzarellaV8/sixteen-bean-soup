@@ -14,5 +14,5 @@ Pinto Beans (_phaseolus vulgaris_)
 - find ~~way~~ better way to arrange and count more beans
 - cross-ref USDA, ACS/Census data
 
-The first count, before building a crude wooden matrix to sort beans.
+The first count, before building a crude wooden matrix to sort beans. Distribution naturally appeared Gaussian, rather deceptively.
 ![the first count](vis/goya-02.jpg)
