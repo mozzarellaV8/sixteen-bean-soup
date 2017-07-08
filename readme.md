@@ -10,6 +10,9 @@ Pinto Beans (_phaseolus vulgaris_)
 
 ## to do
 
-- arrange and count beans
-- find way to arrange and count more beans
+- ~~arrange and count beans~~
+- find ~~way~~ better way to arrange and count more beans
 - cross-ref USDA, ACS/Census data
+
+The first count, before building a crude wooden matrix to sort beans.
+![the first count](vis/goya-02.jpg)
